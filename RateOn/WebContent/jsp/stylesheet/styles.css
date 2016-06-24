@@ -1,0 +1,316 @@
+@charset "UTF-8";
+body, table, tr, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+	background-image: url(../images/bkg.jpg);
+	background-repeat: repeat-x;
+	background-color: #3e3d3b;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #ffffff;
+}
+hr {
+	height:4px;
+	margin:0;
+	background-image:url(../images/hr-home.gif);
+	border:none;
+}
+sup {
+	line-height: 0px;
+	font-size: 75%;
+}
+h1 {
+}
+h2 {
+	font-size:18px;
+	font-weight:normal;
+}
+h3 {
+}
+h4 {
+}
+.commonlist{ overflow:hidden }
+.commonlist li{ list-style-type:none; display:block; background:url(../images/traingle.png) no-repeat 0 9px; padding:3px 10px; float:left; width:100%}
+
+.oneColFixCtr #container {
+	width: 780px;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	padding: 0px;
+}
+.mainContent {
+	background: #5E5B57;
+	margin: 0px;
+	padding: 20px 15px 6px;
+	text-align: left;
+}
+#mc {
+	background: url(../images/homepage/maincontent-bkg.jpg) repeat-x right top;
+	margin: 0px;
+	width: 435px;
+	padding: 0px 15px 6px;
+	text-align: left;
+	line-height: 14px;
+	min-height:191px;
+	height:auto !important;
+	height:181px;
+}
+#mc h2 {
+	border-bottom:2px solid #E5144D;
+	margin:0 0 10px;
+	padding:0 0 0px;
+	width:98px;
+	line-height: 12px;
+}
+#mc p {
+	margin: 0px;
+	padding: 6px 0px;
+	line-height: 12px;
+}
+.oneColFixCtr #bottom {
+	padding: 0 20px 0 43px;
+	background: url(../images/bottom_bkg.jpg) no-repeat;
+	height: 37px;
+	width: 718px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited {
+	color: #89E1FF;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.oneColFixCtr #bottom a:link, .oneColFixCtr #bottom a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.oneColFixCtr #bottom a:hover, .oneColFixCtr #bottom a:active {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.top {
+	padding: 0px 6px 6px 0px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+.top a:link, .top a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.top a:hover, .top a:active {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.searchbar {
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/search-bkg.jpg) repeat-x;
+}
+.search {
+	margin: 0px;
+	padding: 3px 0px 0px;
+}
+.texta {
+	font-size: 10px;
+	background-color: #b3b0aa;
+	border: 1px solid #5E5B57;
+	color: #000000;
+	font-weight: bold;
+}
+#widgets {
+	background-image:url(../images/bg-table-span.gif);
+	height:8px;
+	position:relative;
+	width:780px;
+	background-repeat:repeat-y;
+}
+#widgets a {
+	color: #89E1FF;
+	text-decoration:underline;
+}
+#widgets a:hover {
+	color: #fff;
+	text-decoration:underline;
+}
+#widget1, #widget2, #widget3 {
+	background-image:url(../images/bg-widgets.jpg);
+	height:166px;
+	padding:0 20px;
+	position:absolute;
+	top:22px;
+	width:187px;
+	background-repeat: no-repeat;
+}
+#widget1 {
+	left:27px;
+}
+#widget2 {
+	left:277px;
+}b
+#widget3 {
+	right:27px;
+}
+#icon {
+	bottom:10px;
+position:absolute;
+}
+#button {
+	bottom:20px;
+position:absolute;
+right:25px;
+}
+.formtable{
+
+background-color:#5e5b56;
+padding-left:5px;
+padding-right:5px;
+padding-top:25px;
+padding-bottom:5px;
+}
+.dateformat{
+font-family:Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-weight:normal;
+font-size:10px;
+padding-left:10px;
+padding-right:5px;
+padding-top:5px;
+padding-bottom:5px;
+text-align:left;
+
+
+}
+.formlable{
+font-family:Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-weight:normal;
+font-size:12px;
+padding-left:15px;
+padding-right:5px;
+padding-top:5px;
+padding-bottom:5px;
+text-align:left;
+
+}
+.formlable_heading{
+font-family:Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-weight:bold;
+font-size:12px;
+padding-left:15px;
+padding-right:5px;
+padding-top:5px;
+padding-bottom:5px;
+text-align:left;
+}
+
+
+.textarea {
+	font-size: 10px;
+	background-color: #b3b0aa;
+	border: 1px solid #5E5B57;
+	color: #000000;
+	font-weight: bold;
+}
+.textbox {
+	font-size: 10px;
+	background-color: #b3b0aa;
+	border: 1px solid #5E5B57;
+	color: #000000;
+	font-weight: bold;
+	
+}
+.button{
+	font-size: 10px;
+	background-color: #b3b0aa;
+	border: 1px solid #5E5B57;
+	color: #000000;
+	font-weight: bold;
+
+}
+.footer{
+background-image:url(../images/footer_bg.jpg);
+background-repeat:no-repeat;
+width:780px;
+height:36;
+}
+.footer_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	font-weight: none;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+
+}
+/* Dash Board Classes */
+.dashboard {
+	font-family: Tahoma, Arial, "Times New Roman";
+	font-size: 11px;
+	color:#000000;
+	
+	border-top:1px solid #d5d5d5;
+	border-right:1px solid #d5d5d5;
+	border-bottom:2px solid #d5d5d5;
+	border-left:1px solid #d5d5d5;
+	
+}
+.table_bar {
+	font-family: Tahoma, Arial, "Times New Roman";
+	font-size: 11px;
+	color: #636363;
+	font-weight:bold;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#ffffff;
+	white-space:nowrap;
+	background-image: url(../images/dash_bg.gif);
+	background-repeat: repeat-x;
+	border-top:1px none #bdbabd;
+	border-right:1px none #bdbabd;
+	border-bottom:1px solid #cccccc;
+	border-left:1px none #bdbabd;
+	
+}
+.tablecellalter {
+	background-color:#d3d1d1;
+}
+.tablecell {
+	font-family: Tahoma, Arial, "Times New Roman";
+	font-size: 11px;
+	color: #000000;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	vertical-align:middle;
+}
+.heading_1{
+font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #85e1ff;
+	font-weight:bold;
+
+
+}
+
+.error_1{
+font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #770909;
+	font-weight:bold;
+
+
+}
